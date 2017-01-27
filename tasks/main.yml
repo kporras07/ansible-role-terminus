@@ -3,7 +3,6 @@
 
 - name: Terminus | Install terminus globally
   command: composer global require pantheon-systems/terminus --quiet
-  register: repo
 
 - name: Terminus | Ensure composer bin is in path.
   lineinfile:
