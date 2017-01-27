@@ -1,0 +1,12 @@
+---
+# Tasks file for kporras07.terminus
+
+- name: Terminus | Install terminus globally
+  command: composer global require pantheon-systems/terminus --quiet
+  register: repo
+
+- name: Terminus | Ensure composer bin is in path.
+  lineinfile:
+    path: '~/.bashrc'
+    regexp: 'export PATH="$HOME/.composer/vendor/bin:$PATH"'
+    line: 'export PATH="$HOME/.composer/vendor/bin:$PATH"'
