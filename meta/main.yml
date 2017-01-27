@@ -1,6 +1,6 @@
 galaxy_info:
   author: Kevin Porras
-  description: Backend developer with some passion for DevOps
+  description: Allow easy install of terminus using Ansible.
   company: Manati
 
   # If the issue tracker for your role is not on github, uncomment the
