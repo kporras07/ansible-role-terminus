@@ -21,10 +21,12 @@ Dependencies
 Example Playbook
 ----------------
 
+```
    - hosts: servers
       roles:
          - { role: geerlinguy.composer }
          - { role: kporras07.teampass }
+```
 
 
 License
