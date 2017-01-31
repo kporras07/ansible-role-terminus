@@ -6,6 +6,6 @@
 
 - name: Terminus | Ensure composer bin is in path.
   lineinfile:
-    path: '~/.bashrc'
+    dest: '~/.bashrc'
     regexp: 'export PATH="$HOME/.composer/vendor/bin:$PATH"'
     line: 'export PATH="$HOME/.composer/vendor/bin:$PATH"'
